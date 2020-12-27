@@ -1,23 +1,23 @@
 ### Hacking a LED candle and a LED string
 
-<img src="candle-original.jpg">
+<img src="images/candle-original.jpg" width="350">
 
-<img src="images/candle-batterypack.jpeg">
+<img src="images/candle-batterypack.jpeg" width="350">
 
-<img src="candle-led-wire.jpeg">
+<img src="images/candle-led-wire.jpeg" width="350">
 
-<img src="candle-raspi.jpeg">
+<img src="images/candle-raspi.jpeg" width="350">
 
-<img src="candle-raspi.gif">
+<img src="images/candle-raspi.gif" width="350">
 
-<img src="candle-raspi-bd.gif">
+<img src="images/candle-raspi-bd.gif" width="350">
 
-<img src="led-string.jpeg">
+<img src="images/led-string.jpeg" width="350">
 
-<img src="led-string-bd.gif">
+<img src="images/led-string-bd.gif" width="350">
 
-<img src="candle-string-bd.gif">
+<img src="images/candle-string-bd.gif" width="350">
 
-<img src="candle-string-package.jpeg">
+<img src="images/candle-string-package.jpeg" width="350">
 
-<img src="candle-string-final.jpeg">
+<img src="images/candle-string-final.jpeg" width="350">
