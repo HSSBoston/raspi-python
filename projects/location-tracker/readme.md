@@ -6,6 +6,7 @@ Written in August 2021 for the first time. Revised in October 2021.
   <img src="images/concord.jpg" height="250" />
   <br>
   <img src="images/atlt.jpg" height="350" />
+  <img src="images/lake_george.jpg" height="350" />
   <img src="images/medford2.jpg" height="350" />
   <br>
   <img src="images/hanscom2.jpg" width="400" />
