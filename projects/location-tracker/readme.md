@@ -7,9 +7,8 @@ Written in August 2021 for the first time. Revised in October 2021.
   <img src="images/atma.jpg" height="350" />
   <img src="images/atma2.jpg" height="350" />
   <br>
-
-  <img src="images/concord.jpg" height="400" />
-  <img src="images/camping.jpg" height="400" />
+  <img src="images/concord.jpg" width="400" />
+  <img src="images/camping.jpg" width="400" />
   <br>
   <img src="images/atlt.jpg" height="350" />
   <img src="images/lake_george.jpg" height="350" />
