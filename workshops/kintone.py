@@ -1,5 +1,5 @@
 # Library to access and use Kintone apps
-# June 10, 2021 v0.04
+# December 21, 2021 v0.05
 # Jun Suzuki (https://github.com/jxsboston)
 # IoT for Kids: https://jxsboston.github.io/IoT-Kids/
 
@@ -107,12 +107,4 @@ def getRecord(*, subDomain: str, apiToken: str, appId: str, recordId: str) -> Op
     else:
         print("Record download failed. Status code: " + str(response.status_code))
         return None
-
-# Function to return the current date and time in string based on
-#   the YR-MO-DAY-HR-MIN-SEC format.
-#
-def getCurrentTimeStamp() -> str:
-    dt = datetime.datetime.now()
-    return "{:d}-{:02d}-{:02d}-{:02d}-{:02d}-{:02d}".format(
-        dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second)
 
