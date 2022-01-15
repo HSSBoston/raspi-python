@@ -4,7 +4,7 @@ import time
 # Write your program below
 
 tree = RGBXmasTree()
-tree.on()
+tree.color = Color("blue")
 time.sleep(3)
 tree.off()
 

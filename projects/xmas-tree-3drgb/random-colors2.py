@@ -6,7 +6,7 @@ import time, random
 tree = RGBXmasTree()
 
 starLight = tree.star()
-starLight.color = Color("white")
+starLight.color = Color("gray")
 
 while True:
     try:

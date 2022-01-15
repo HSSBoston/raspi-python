@@ -7,7 +7,7 @@ tree = RGBXmasTree()
 degree = 30
 
 starLight = tree.star()
-starLight.color = Color("white")
+starLight.color = Color("gray")
 
 for light in tree.nonStarLights():
     r = random.random()

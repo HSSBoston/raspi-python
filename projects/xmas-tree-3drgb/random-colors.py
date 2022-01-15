@@ -3,11 +3,12 @@ from colorzero import Color, Hue
 import time, random
 # Write your program below
 
-tree = RGBXmasTree()
-colors = [Color("red"), Color("green"), Color("blue")]
+colors = [Color("red"), Color("green"), Color("blue"),
+          Color("magenta"), Color("cyan"), Color("yellow")]
 
+tree = RGBXmasTree()
 starLight = tree.star()
-starLight.color = Color("white")
+starLight.color = Color("gray")
 
 while True:
     try:

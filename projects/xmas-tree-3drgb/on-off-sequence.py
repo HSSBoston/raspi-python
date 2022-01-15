@@ -9,7 +9,7 @@ interval = 2
 while True:
     try:
         for light in tree:
-            light.color = Color("red")
+            light.color = Color("green")
             time.sleep(interval)
             light.off()
     except KeyboardInterrupt:
