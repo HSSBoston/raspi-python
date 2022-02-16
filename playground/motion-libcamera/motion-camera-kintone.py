@@ -1,15 +1,15 @@
-import RPi.GPIO as GPIO, os, sys, kintone, time
-from kintone import getCurrentTimeStamp
+import RPi.GPIO as GPIO, subprocess, sys, time, kintone, iotutils
+from iotutils import getCurrentTimeStamp
 GPIO.setmode(GPIO.BCM)
-# Start writing your program below
-
-motionPin = 21
-GPIO.setup(motionPin, GPIO.IN)
-interval = 5
+# Write your program below
 
 sdomain = "SUB-DOMAIN-NAME"
 appId = "APP-ID-NUMBER"
 token = "APP-TOKEN"
+
+motionPin = 21
+GPIO.setup(motionPin, GPIO.IN)
+interval = 5
 
 while True:
     try:
@@ -18,12 +18,11 @@ while True:
             
             timeStamp = getCurrentTimeStamp()
             picFile = timeStamp + ".jpg"
-            command = "raspistill -t 500 -w 800 -h 600 -o " + picFile
+            command = "libcamera-still -n -t 500 --width 800 --height 600 -o " + picFile
 
-            status = os.system(command)
-            if(status==0):
-                print(timeStamp, end=" ")
-                print("Photo captured.")
+            status = subprocess.run(command, capture_output=True, shell=True)
+            if status.returncode == 0:
+                print(timeStamp + " Photo captured.")
             else:
                 print("Failed to capture a picture")
                 sys.exit()

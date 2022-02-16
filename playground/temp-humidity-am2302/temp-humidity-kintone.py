@@ -4,9 +4,9 @@ from Adafruit_DHT import AM2302, read_retry as readTempHumidity
 GPIO.setmode(GPIO.BCM)
 # Start writing your program below
 
-sdomain = "HSSBoston"
-appId = "4"
-token = "ti6ixDwFpBhZHqYqiOEBRwXSj0WhGN9D41TKRwwL"
+sdomain = "SUB-DOMAIN-NAME"
+appId = "APP-ID-NUMBER"
+token = "APP-TOKEN"
 
 tempSensorPin = 21
 interval = 5
