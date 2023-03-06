@@ -5,7 +5,7 @@ I started using Raspberry Pi in December 2020. I have been using Python to make 
 - [Playground folder](playground/): for the code I used to do basic things, learn about something new about Python programming or try out new sensors/parts.
 - [Projects folder](projects/): for my preliminary or on-going projects.
 - Completed/published projects:
-  - In-piano Humidity Sensor (2021/04)
+  - [In-piano Humidity Sensor](https://github.com/HSSBoston/piano-humidity) (2021/04)
   - [Itsy Bitsy Programmable Clock](https://github.com/HSSBoston/itsy-bitsy-prog-clock/) (2021/06)
   - Covid-19 PVI (Pandemic Vulnerability Index) Tracker (2022/03)
   - [Ned: The Hydration Reminder](https://github.com/HSSBoston/ned) (2022/07)
