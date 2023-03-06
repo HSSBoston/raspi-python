@@ -2,8 +2,8 @@ from openweather import *
 
 weatherApiKey = ""
 
-latitude = 42.3656
-longitude = -71.0096
+latitude = 40.5
+longitude = -70.5
 weatherData = getGpsWeather(latitude, longitude, "metric", weatherApiKey)
 temp, feelsLike, humidity = getCurrentTempHumidity(weatherData)
 print("Lat: " + str(latitude) + ", Lon: " + str(longitude))

@@ -2,8 +2,8 @@ from openweather import *
 
 weatherApiKey = ""
 
-latitude = 42.3656
-longitude = -71.0096
+latitude = 40.5
+longitude = -70.5
 weatherData = getGpsWeather(latitude, longitude, "metric", weatherApiKey)
 print("Location: " + str(latitude) + ", " + str(longitude))
 description = getCurrentWeatherDescription(weatherData)
