@@ -3,7 +3,11 @@
 I started using Raspberry Pi in December 2020. I have been using Python to make Raspi apps. See:
 
 - [Playground folder](playground/): for the code I used to do basic things, learn about something new about Python programming or try out new sensors/parts.
-- [Projects folder](projects/): for my projects.
+- [Projects folder](projects/): for my preliminary or on-going projects.
+- Completed/published projects:
+  - Ned: 
+  - [Smart Earring: Sound-sensitive and Siri-ready LEDs for Earrings](https://github.com/HSSBoston/smart-earring) (2023/03)
+
 
 <p align="center">
   <img src="images/raspi-led.jpg" width="400" />
