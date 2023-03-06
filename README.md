@@ -15,7 +15,6 @@ I started using Raspberry Pi in December 2020. I have been using Python to make 
   <img src="images/raspi-led.jpg" width="400" />
   <img src="images/raspi-on-piano.jpg" width="400" />
   <br>
-  <img src="images/raspi-alarm-clock.jpg" width="400" />
   <img src="images/raspi-distance.jpg" width="400" />
 
 </p>
