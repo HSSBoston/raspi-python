@@ -5,7 +5,9 @@ I started using Raspberry Pi in December 2020. I have been using Python to make 
 - [Playground folder](playground/): for the code I used to do basic things, learn about something new about Python programming or try out new sensors/parts.
 - [Projects folder](projects/): for my preliminary or on-going projects.
 - Completed/published projects:
-  - Ned: The Hydration Reminder (2022/07)
+  - Itsy Bitsy Programmable Clock (2021/06)
+  - (2021/08)
+  - [Ned: The Hydration Reminder](https://github.com/HSSBoston/ned) (2022/07)
   - [Smart Earring: Sound-sensitive and Siri-ready LEDs for Earrings](https://github.com/HSSBoston/smart-earring) (2023/03)
 
 
