@@ -1,20 +1,15 @@
-import RPi.GPIO as GPIO, subprocess, sys, time, kintone, iotutils
+from gpiozero import MotionSensor
+import subprocess, sys, time, kintone, iotutils
 from iotutils import getCurrentTimeStamp
-GPIO.setmode(GPIO.BCM)
 # Write your program below
 
-motionPin = 21
-GPIO.setup(motionPin, GPIO.IN)
 interval = 5
+sensor = MotionSensor(21)
 
 while True:
     try:
-        if GPIO.input(motionPin) == GPIO.HIGH:
-            print("Motion detected: " + getCurrentTimeStamp())
-            time.sleep(interval)
+        sensor.wait_for_motion()
+        print("Motion detected: " + getCurrentTimeStamp())
+        time.sleep(interval)
     except KeyboardInterrupt:
         break
-
-
-# Write your program above this line
-GPIO.cleanup()
