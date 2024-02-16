@@ -1,6 +1,6 @@
 ## Crafting and Programming Raspberry Pi Gadgets with Python
 
-I started using Raspberry Pi in December 2020. I have been using Python to make Raspi apps. See:
+I started using Raspberry Pi in October 2020. I have been using Python to make Raspi apps. See:
 
 - [Playground folder](playground/): for the code I used to do basic things, learn about something new about Python programming or try out new sensors/parts.
 - [Projects folder](projects/): for my preliminary or on-going projects.
@@ -10,6 +10,8 @@ I started using Raspberry Pi in December 2020. I have been using Python to make 
   - Covid-19 PVI (Pandemic Vulnerability Index) Tracker (2022/03)
   - [Ned: The Hydration Reminder](https://github.com/HSSBoston/ned) (2022/07)
   - [Smart Earring: Sound-sensitive and Siri-ready LEDs for Earrings](https://github.com/HSSBoston/smart-earring) (2023/03)
+  - [Electronic Deer Repeller](https://github.com/HSSBoston/deer-repeller) (2023/09)
+  - [Computerised Bouquet of Lego Roses for Valentine's Day](https://github.com/HSSBoston/roses) (2024/02)
 
 
 <p align="center">
