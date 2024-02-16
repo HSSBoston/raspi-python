@@ -11,7 +11,7 @@ I started using Raspberry Pi in October 2020. I have been using Python to make R
   - [Ned: The Hydration Reminder](https://github.com/HSSBoston/ned) (2022/07)
   - [Smart Earring: Sound-sensitive and Siri-ready LEDs for Earrings](https://github.com/HSSBoston/smart-earring) (2023/03)
   - [Electronic Deer Repeller](https://github.com/HSSBoston/deer-repeller) (2023/09)
-  - [Computerised Bouquet of Lego Roses for Valentine's Day](https://github.com/HSSBoston/roses) (2024/02)
+  - [Computerized Bouquet of Lego Roses for Valentine's Day](https://github.com/HSSBoston/roses) (2024/02)
 
 
 <p align="center">
