@@ -8,20 +8,21 @@ motor.enable()
 
 def down(duration):
     motor.direction(REVERSED_DIR)
-    motor.speed(0.75)
+    motor.speed(0.95)
     time.sleep(duration)
     motor.stop()
 
 def up(duration):
     motor.direction(NORMAL_DIR)
-    motor.speed(0.75)
+    motor.speed(0.95)
     time.sleep(duration)
+    motor.coast()
     motor.stop()
 
 if __name__ == "__main__":
-    down(3)
+    down(5)
     time.sleep(1)
-    up(3)
+    up(5)
 
 
 
