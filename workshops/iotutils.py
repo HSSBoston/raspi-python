@@ -1,6 +1,5 @@
 # Library of utilities
 # December 21, 2021 v0.01
-# Jun Suzuki (https://github.com/jxsboston)
 # IoT for Kids: https://jxsboston.github.io/IoT-Kids/
 
 import requests, json, datetime
