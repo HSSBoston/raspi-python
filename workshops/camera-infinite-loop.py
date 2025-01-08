@@ -8,7 +8,7 @@ while True:
     try:
         timeStamp = getCurrentTimeStamp()
         picFile = timeStamp + ".jpg"
-        command = "libcamera-still -n -t 500 --width 800 --height 600 -o " + picFile
+        command = "libcamera-still -n -t 500 -o " + picFile
 
         status = subprocess.run(command, capture_output=True, shell=True)
 
